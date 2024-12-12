@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+/* Warna teal untuk navbar */
+
+.bg-teal {
+    background-color: #008080;
+}
+
+
+/* Hero Section */
+
+.hero-section {
+    background: url('/img/LSCP1.png') no-repeat center center/cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .display-4 {
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-section .lead {
+    font-size: 1.2rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.btn-margin {
+    margin-top: 250px;
+    /* Menambahkan jarak vertikal */
+}
+
+.card {
+    border: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+
+/* Gaya untuk bagian vaksin */
+
+#vaksin {
+    background-color: #ffffff;
+    color: #333;
+}
+
+#vaksin h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #008080;
+    letter-spacing: 1px;
+}
+
+#vaksin h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+#vaksin p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#vaksin img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+
+/* Gaya untuk bagian lokasi */
+
+#location {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+#location h5 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #008080;
+    letter-spacing: 1px;
+}
+
+#location h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+#location p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+#location iframe {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Footer Style */
+
+.footer {
+    background-color: #008080;
+    color: #fff;
+}
+
+.footer h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+}
+
+.footer ul li i {
+    margin-right: 0.5rem;
+    color: #f9c00c;
+}
